@@ -1,0 +1,125 @@
+/* //General Styles */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(0,43,74);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a, .nav-link, .navbar-brand, .Link{
+  color: inherit;
+  text-decoration: none;
+  color: rgb(203,171,47);
+}
+
+.nav-link:hover, .navbar-brand:hover{
+  color: white;
+}
+
+.navbar-toggler{
+  border-style: none;
+  color: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+/* Experience Page */
+
+.project-btn{
+  background-color: rgb(203,171,47);
+  color: black;
+}
+
+.project-btn:hover{
+  background-color: green;
+}
+
+.project-bt:focus{
+  outline: 0;
+}
+
+.portfolio-modal{
+  background-color: rgb(0,43,74);
+}
+
+.techLogos{
+  width: 50px;
+  height: 50px;
+}
+
+  /* Education Card */
+  .education, .projects, .card-projects, .twinlakes-card, .its-card, .saic-card {
+    background-color: rgb(0,43,74);
+    border: none;
+  }
+
+  .tntechlogo, .twinlakeslogo, .itslogo, .saiclogo, .futurologo, .coblogo{
+    width: 10%;
+    height: 10%;
+  }
+
+  .school-info, .twinlakes-info, .its-info, .saic-info, .futuro-info, .cob-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+/* Contact */
+.contact-card{
+  background-color: rgb(0,43,74);
+  border: none;
+}
+
+.contact-btn {
+  background-color: rgb(203,171,47);
+}
+.contact-btn:hover {
+  background-color: Green;
+  color: white;
+}
+
+/* Footer */
+
+.content{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  background-color: rgb(0,43,74);
+  color: rgb(203,171,47);
+  position:initial ;
+  bottom: 0;
+  width: 100%;
+}
