@@ -17,7 +17,7 @@ function Projects() {
                         {/* Start Project List */}
                     <div className='d-flex col-12 my-3 justify-content-center align-items-center flex-column flex-sm-column flex-md-column flex-lg-row'>
                         <Card className="card-projects card mx-3 my-3 col-11 col-sm-11 col-md-11 col-lg-3">
-                            <Card.Img variant="top" src="/portfolio.png" />
+                            <Card.Img variant="top" src="/website.png" />
                             <div>
                                 <h5 className="card-title text-center">Personal Portfolio</h5>
                                 <div className='Tech Stack'>
