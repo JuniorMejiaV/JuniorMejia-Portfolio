@@ -18,7 +18,7 @@ function navBar() {
               <Link className="nav-link" href="/">
                 Home
               </Link>
-              <Link className="nav-link" href="/jobs">
+              <Link className="nav-link" href="/experience">
                 Experience
               </Link>
               <Link className="nav-link" href="/contact">

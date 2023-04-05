@@ -10,7 +10,7 @@ import BackGround from "../components/index/background";
 import Rocky from "../components/index/rocky";
 
 //Pages
-import Experience from "./jobs";
+import Experience from "./experience";
 import Contact from "./contact";
 
 export default function Home() {
